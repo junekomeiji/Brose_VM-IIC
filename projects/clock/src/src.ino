@@ -23,6 +23,9 @@
 #define FLIP_TIME       550
 #define WIFI_TIMEOUT    (15 * 60 * 1000)    // reboot after 15 minutes without wifi (there's currently a bug in WiFiMulti that doesn't handle reconnects correctly when AP briefly disappears)
 
+//TODO:     find a way to link it to spotify
+//          no seriously that's the entire reason we're here, make a spotify account and go from there          
+
 const char* ntpServer = "de.pool.ntp.org";
 const char* TZ_INFO =   "CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00"; // Berlin, for others, see: https://remotemonitoringsystems.ca/time-zone-abbreviations.php
 
